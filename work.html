@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Rei Harakami</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="main-header">
+        <h1>His Albums</h1>
+        <nav class="navbar">
+         <ul>
+             <li><a href="index.html">Home</a></li>
+             <li><a href="work.html">Work</a></li>
+              <li><a href="process.html">Process</a></li>
+              <li><a href="inspired.html">Inspired</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="work-intro">
+      <h2>Albums & Tracks</h2>
+     <p>A small collection of some of my personal favorites from Rei's Albums  </p>
+        </div>
+
+        <div class="album-grid">
+            <section class="album-card">
+             <img src="rh5.jpg" alt="Unrest Album Cover">
+             <h3>Unrest (1998)</h3>
+             <p>His debut album, experiemental but recognizable.</p>
+            <audio controls>
+             <source src="code.mp3" type="audio/mpeg">
+            </audio>
+            </section>
+
+            <section class="album-card">
+                <img src="rh4.jpg" alt="Opaq Album Cover">
+                <h3>Opaq (1999)</h3>
+                <p>A deeper dive into glitchy synths, signature sound starts emerging.</p>
+                <audio controls>
+                    <source src="glimglim.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+
+            <section class="album-card">
+                <section class="album-card">
+                <img src="rh6.jpg" alt="Lust Album Cover">
+                <h3>Lust (2005)</h3>
+                <p>Considered to be his best work, his sound solidifies.</p>
+                <audio controls>
+          <source src="owari no kisetsu.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+        </div>
+
+        <section class="vote-section">
+            <h2>Vote for your Favorite Album</h2>
+            <form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="POST">
+             <label for="user-name">Your Name:</label><br>
+                <input type="text" id="user-name" name="name" required><br>
+
+     <p>Which album sounds the best?</p>
+      <input type="radio" id="choice1" name="message" value="Unrest">
+       <label for="choice1">Unrest</label><br>
+      <input type="radio" id="choice2" name="message" value="Opaq">
+      <label for="choice2">Opaq</label><br>
+       <input type="radio" id="choice3" name="message" value="Lust">
+       <label for="choice3">Lust</label><br><br>
+                <button type="submit">Submit My Vote</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Rei Harakami Fan Site By Donald</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
